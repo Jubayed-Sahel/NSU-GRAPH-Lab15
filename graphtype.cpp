@@ -205,7 +205,7 @@ template<class VertexType>
 bool GraphType<VertexType>::FoundEdge(VertexType fromVertex, VertexType toVertex) {
     int row = IndexIs(vertices, fromVertex);
     int col = IndexIs(vertices, toVertex);
-    if (edges[row][col] == 1)
+    if (edges[row][col] != NULL_EDGE)
         return true;
     else
         return false;

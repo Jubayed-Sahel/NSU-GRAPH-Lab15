@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1716820276 source:d:\codeblocks\nsu-graph-lab15\main.cpp
+	<iostream>
+	"graphtype.cpp"
+
+1716823275 d:\codeblocks\nsu-graph-lab15\graphtype.cpp
+	<iostream>
+	"graphtype.h"
+	"stacktype.cpp"
+	"quetype.cpp"
+
+1716823269 d:\codeblocks\nsu-graph-lab15\graphtype.h
+	"stacktype.h"
+	"quetype.h"
+
+1716820263 d:\codeblocks\nsu-graph-lab15\stacktype.h
+
+1716820306 d:\codeblocks\nsu-graph-lab15\quetype.h
+
+1716820276 d:\codeblocks\nsu-graph-lab15\stacktype.cpp
+	"stacktype.h"
+
+1716820276 d:\codeblocks\nsu-graph-lab15\quetype.cpp
+	"quetype.h"
+
